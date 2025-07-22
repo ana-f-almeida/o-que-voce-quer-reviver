@@ -1,0 +1,85 @@
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 80px;
+}
+
+.container {
+  max-width: 500px;
+  text-align: left;
+  padding: 40px 20px;
+}
+
+.icone {
+  margin-bottom: 40px;
+}
+
+.icone img {
+  max-width: 80px;
+  height: auto;
+  opacity: 0.6;
+}
+
+.titulo {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #202124;
+  line-height: 1.4;
+}
+
+.mensagem {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #5f6368;
+  max-width: 400px;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.mensagem a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.mensagem a:hover {
+  text-decoration: underline;
+}
+
+.erro {
+  background: transparent;
+  padding: 0;
+  margin: 20px 0 40px 0;
+  border: none;
+  font-family: 'Courier New', monospace;
+}
+
+.erro code {
+  font-size: 0.9rem;
+  color: #80868b;
+  font-weight: normal;
+}
+
+button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #1557b0;
+}
+
+button:active {
+  background-color: #1347a0;
+}

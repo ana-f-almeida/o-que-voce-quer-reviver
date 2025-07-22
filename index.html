@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>o que você gostaria de reviver?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <p class="pergunta">
+      Qual memória você gostaria de reviver?
+    </p>
+
+    <input type="text" id="memoria" placeholder="escreva aqui" />
+
+    <button onclick="acessar()">acessar</button>
+  </div>
+
+  <script>
+    function acessar() {
+      const memoria = document.getElementById("memoria").value.trim();
+      if (memoria) {
+        localStorage.setItem("ausencia", memoria);
+        window.location.href = "erro404.html";
+      } else {
+        alert("escreva algo antes de continuar.");
+      }
+    }
+  </script>
+</body>
+</html>
